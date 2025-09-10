@@ -9,7 +9,6 @@ func main() {
 	tr := make([]int, 0, 2)
 	tr = append(tr, 1)
 	tr = append(tr, 2)
-	tr[4] = 100
 	fmt.Println(tr)
 
 	transaction := []int{}
